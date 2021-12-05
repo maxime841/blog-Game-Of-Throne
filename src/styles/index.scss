@@ -1,0 +1,10 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: sans-serif;
+  background-image: url("../../public/lg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Patrick Hand', cursive;
+}
