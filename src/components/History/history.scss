@@ -6,7 +6,7 @@
     padding-top: 3rem;
     border: 2px solid #8b4513;
     border-radius: 1rem;
-    margin-right: 850px;
+    margin-right: 1300px;
     text-align: center;
     padding: auto;
   }
@@ -17,11 +17,33 @@
     padding: 2rem 3rem;
     line-height: 1.7rem;
   }
+
+  &-subTitle {
+    color: #b22222;
+    margin: 1rem 3rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+  &-item {
+    color:#008080;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin: 1rem 15rem; 
+  }
+
+  &-img {
+    width: 10%;
+    height: 10%;
+    margin-left: 50px;
+    float: left;
+  }
 }
 
 .hystory-container {
   background-color: antiquewhite;
-  width: 1135px;
+  width: 1600px;
   margin: 50px 135px;
   padding-top: 2rem;
+  padding-bottom: 6rem;
 }
