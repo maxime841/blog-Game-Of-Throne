@@ -1,5 +1,5 @@
 // == Import npm
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
@@ -8,21 +8,23 @@ import './header.scss';
 
 // == Composant
 const Header = ({ links }) => (
-  <nav className="header" id="header">
-    {
-    links.map((link) => (
-      <NavLink
-        // activeClassName="active"
-        className="header-link"
-        key={link.route + link.label}
-        to={link.route}
-      >
-        {link.label}
-      </NavLink>
-    ))
-    }
-  </nav>
+  <header className="header">
+    <nav className="header-list">
+      {
+        links.map((link) => (
+          <NavLink
+            className="header-link"
+            key={link.route + link.label}
+            to={link.route}
+          >
+            {link.label}
+          </NavLink>
+        ))
+      };
+    </nav>
+  </header>
 );
+
 Header.propTypes = {
   links: PropTypes.arrayOf(
     PropTypes.shape({
