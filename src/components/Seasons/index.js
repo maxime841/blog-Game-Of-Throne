@@ -29,7 +29,7 @@ const Seasons = ({ seasons }) => (
 Seasons.propTypes = {
   seasons: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
+      id: PropTypes.number,
       label: PropTypes.string.isRequired,
       route: PropTypes.string.isRequired,
     }),
