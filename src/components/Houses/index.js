@@ -17,8 +17,8 @@ const Houses = ({ houses }) => (
             to={house.route}
             key={house.route}
           >
-            <img className="seasons-img" src={house.thumbnail} alt="couverture saison" />
-            <h1 className="seasons-title">{house.label}</h1>
+            <img className="houses-img" src={house.thumbnail} alt="couverture saison" />
+            <h1 className="houses-title">{house.label}</h1>
           </Link>
         ))
       }

@@ -1,0 +1,169 @@
+
+.houseStarkCharRickon {
+
+  &-owner {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px; 
+  }
+  &-identity {
+    color: #8b4513;
+    font-size: 3.5rem;
+    margin: 0 5rem;
+    padding-top: 3rem;
+    border: 2px solid #8b4513;
+    border-radius: 1rem;
+    margin-right: 1300px;
+    text-align: center;
+    padding: auto;
+    width: 300px;
+  }
+
+  &-img {
+    position: absolute;
+    right: 200px;
+    width: 300px;
+  }
+
+  &-caracteristic {
+    background-color:#C0C0C0;
+    width: 1100px;
+    margin: 20px 135px;
+    padding: 2rem;  
+  }
+
+  &-citation {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-title {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-alias {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-informations {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+  }
+
+  &-status {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  &-old {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;  
+  }
+  &-deaddate {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem; 
+  }
+
+  &-birthdate {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-loyalty {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+  }
+
+  &-culture {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-allegency {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-origin {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  &-famillyInfo {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+  }
+
+  &-relation {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-parents {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-children {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-fratrie {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-familly {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-content {
+    color:#008080;
+    font-size: 1.2rem;
+    padding: 2rem 3rem;
+    line-height: 1.7rem;
+  }
+
+  &-subTitle {
+    color: #b22222;
+    margin: 1rem 3rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+}
+
+.houseStarkCharRickon-container {
+  background-color: rgb(207, 175, 132);
+  width: 1600px;
+  margin: 50px 135px;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+

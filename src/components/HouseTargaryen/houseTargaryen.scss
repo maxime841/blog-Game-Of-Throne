@@ -1,0 +1,159 @@
+.houseTargaryen {
+  &-title {
+    color: #8b4513;
+    font-size: 3.5rem;
+    margin: 0 5rem;
+    padding-top: 3rem;
+    border: 2px solid #8b4513;
+    border-radius: 1rem;
+    margin-right: 1300px;
+    text-align: center;
+    padding: auto;
+    width: 300px;
+  }
+
+  &-but {
+    display: flex;
+    margin-left: 500px;
+  }
+
+  &-button {
+    font-size: 1.5rem;
+    color: black;
+    border: 1px solid black;
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  &-emblemImg {
+    position: absolute;
+    right: 200px;
+  }
+
+  &-caracteristic {
+    background-color:#C0C0C0;
+    width: 1100px;
+    margin: 20px 135px;
+    padding: 2rem; 
+  }
+
+  &-emblemCoat {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+  }
+
+  &-emblem {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-coatOfArms {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &-houseTitle {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  &-houseTitleFamilly {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+  }
+  &-houseTitleTitle {
+    font-size: 2rem;
+    color: black;
+    margin-left: 30px;
+    padding-top: 0.8rem;  
+  }
+  &-houseTitleItem {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 1rem;
+    list-style: inside; 
+  }
+
+  &-location {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  &-poeple {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  &-alliance {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+  }
+
+  &-allegianceItem {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 1rem;
+    list-style: inside;
+  }
+
+  &-vassalsItem {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 1rem;
+    list-style: inside;
+  }
+
+  &-other {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  &-content {
+    color:#008080;
+    font-size: 1.2rem;
+    padding: 2rem 3rem;
+    line-height: 1.7rem;
+  }
+
+  &-subTitle {
+    color: #b22222;
+    margin: 1rem 3rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+}
+
+.houseTargaryen-container {
+  background-color: rgb(207, 175, 132);
+  width: 1600px;
+  margin: 50px 135px;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
