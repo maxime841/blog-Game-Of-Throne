@@ -119,7 +119,53 @@ import HouseTyrellCharLoras from 'src/components/HouseTyrellCharLoras';
 import HouseTyrellCharMace from 'src/components/HouseTyrellCharMace';
 import HouseTyrellCharMargaery from 'src/components/HouseTyrellCharMargaery';
 import Objects from 'src/components/Objects';
+import ObjectsBooks from 'src/components/ObjectsBooks';
+import ObjectsGames from 'src/components/ObjectsGames';
+import ObjectsShop from 'src/components/ObjectsShop';
 import Actors from 'src/components/Actors';
+import EmiliaClarke from 'src/components/EmiliaClarke';
+import KitHarington from 'src/components/KitHarington';
+import SophieTurner from 'src/components/SophieTurner';
+import MaisieWilliams from 'src/components/MaisieWilliams';
+import PeterDinklage from 'src/components/PeterDinklage';
+import LenaHeadey from 'src/components/LenaHeadey';
+import NikolajCosterWaldau from 'src/components/NikolajCosterWaldau';
+import GwendolyneChristie from 'src/components/GwendolyneChristie';
+import IsaacHempsteadWright from 'src/components/IsaacHempsteadWright';
+import AlfieAllen from 'src/components/AlfieAllen';
+import NathalieEmmanuel from 'src/components/NathalieEmmanuel';
+import IanGlen from 'src/components/IanGlen';
+import CariceVanHouten from 'src/components/CariceVanHouten';
+import AidenGillen from 'src/components/AidenGillen';
+import LiamCunningham from 'src/components/LiamCunningham';
+import SeanBean from 'src/components/SeanBean';
+import MarkAddy from 'src/components/MarkAddy';
+import MichelleFairley from 'src/components/MichelleFairley';
+import HarryLloyd from 'src/components/HarryLloyd';
+import RichardMadden from 'src/components/RichardMadden';
+import JackGleeson from 'src/components/JackGleeson';
+import RoryMcCann from 'src/components/RoryMcCann';
+import JasonMomoa from 'src/components/JasonMomoa';
+import JohnBradleyWest from 'src/components/JohnBradleyWest';
+import StephenDillane from 'src/components/StephenDillane';
+import JamesCosmo from 'src/components/JamesCosmo';
+import JeromeFlynn from 'src/components/JeromeFlynn';
+import ConlethHill from 'src/components/ConlethHill';
+import SibelKekilli from 'src/components/SibelKekilli';
+import NathalieDormer from 'src/components/NathalieDormer';
+import CharlesDance from 'src/components/CharlesDance';
+import OonaChaplin from 'src/components/OonaChaplin';
+import RoseLeslie from 'src/components/RoseLeslie';
+import JoeDempsie from 'src/components/JoeDempsie';
+import KristoferHivju from 'src/components/KristoferHivju';
+import IwanRheon from 'src/components/IwanRheon';
+import HannahMurray from 'src/components/HannahMurray';
+import MichielHuisman from 'src/components/MichielHuisman';
+import IndiraVarma from 'src/components/IndiraVarma';
+import DeanCharlesChapman from 'src/components/DeanCharlesChapman';
+import TomWlaschiha from 'src/components/TomWlaschiha';
+import JonathanPryce from 'src/components/JonathanPryce';
+import JacobAnderson from 'src/components/JacobAnderson';
 import Creator from 'src/components/Creator';
 import Music from 'src/components/Music';
 import Suits from 'src/components/Suits';
@@ -130,6 +176,9 @@ import './bloggot.scss';
 import routeData from '../../data/route';
 import seasonData from '../../data/seasons';
 import housesData from '../../data/houses';
+import books from '../../data/books';
+import games from '../../data/games';
+import actors from '../../data/actors';
 
 // == Composant
 const BlogGOT = () => (
@@ -254,7 +303,53 @@ const BlogGOT = () => (
         <Route path="/houseTyrellCharMace" element={<HouseTyrellCharMace />} />
         <Route path="/houseTyrellCharMargaery" element={<HouseTyrellCharMargaery />} />
         <Route path="/objects" element={<Objects />} />
-        <Route path="/actors" element={<Actors />} />
+        <Route path="/objectsBooks" element={<ObjectsBooks books={books} />} />
+        <Route path="/objectsGame" element={<ObjectsGames games={games} />} />
+        <Route path="/shop" element={<ObjectsShop />} />
+        <Route path="/actors" element={<Actors actors={actors} />} />
+        <Route path="/emiliaClarke" element={<EmiliaClarke />} />
+        <Route path="/kitHarington" element={<KitHarington />} />
+        <Route path="/sophieTurner" element={<SophieTurner />} />
+        <Route path="/maisieWilliams" element={<MaisieWilliams />} />
+        <Route path="/peterDinklage" element={<PeterDinklage />} />
+        <Route path="/lenaHeadey" element={<LenaHeadey />} />
+        <Route path="/nikolajCosterWaldau" element={<NikolajCosterWaldau />} />
+        <Route path="/gwendolyneChristie" element={<GwendolyneChristie />} />
+        <Route path="/isaacHempsteadWright" element={<IsaacHempsteadWright />} />
+        <Route path="/alfieAllen" element={<AlfieAllen />} />
+        <Route path="/nathalieEmmanuel" element={<NathalieEmmanuel />} />
+        <Route path="/ianGlen" element={<IanGlen />} />
+        <Route path="/cariceVanHouten" element={<CariceVanHouten />} />
+        <Route path="/aidenGillen" element={<AidenGillen />} />
+        <Route path="/liamCunningham" element={<LiamCunningham />} />
+        <Route path="/seanBean" element={<SeanBean />} />
+        <Route path="/markAddy" element={<MarkAddy />} />
+        <Route path="/michelleFairley" element={<MichelleFairley />} />
+        <Route path="/harryLloyd" element={<HarryLloyd />} />
+        <Route path="/richardMadden" element={<RichardMadden />} />
+        <Route path="/jackGleeson" element={<JackGleeson />} />
+        <Route path="/roryMcCann" element={<RoryMcCann />} />
+        <Route path="/jasonMomoa" element={<JasonMomoa />} />
+        <Route path="/johnBradleyWest" element={<JohnBradleyWest />} />
+        <Route path="/stephenDillane" element={<StephenDillane />} />
+        <Route path="/jamesCosmo" element={<JamesCosmo />} />
+        <Route path="/jeromeFlynn" element={<JeromeFlynn />} />
+        <Route path="/conlethHill" element={<ConlethHill />} />
+        <Route path="/sibelKekilli" element={<SibelKekilli />} />
+        <Route path="/nathalieDormer" element={<NathalieDormer />} />
+        <Route path="/charlesDance" element={<CharlesDance />} />
+        <Route path="/oonaChaplin" element={<OonaChaplin />} />
+        <Route path="/roseLeslie" element={<RoseLeslie />} />
+        <Route path="/joeDempsie" element={<JoeDempsie />} />
+        <Route path="/kristoferHivju" element={<KristoferHivju />} />
+        <Route path="/iwanRheon" element={<IwanRheon />} />
+        <Route path="/hannahMurray" element={<HannahMurray />} />
+        <Route path="/michielHuisman" element={<MichielHuisman />} />
+        <Route path="/indiraVarma" element={<IndiraVarma />} />
+        <Route path="/deanCharlesChapman" element={<DeanCharlesChapman />} />
+        <Route path="/tomWlaschiha" element={<TomWlaschiha />} />
+        <Route path="/jonathanPryce" element={<JonathanPryce />} />
+        <Route path="/jacobAnderson" element={<JacobAnderson />} />
         <Route path="/creator" element={<Creator />} />
         <Route path="/music" element={<Music />} />
         <Route path="/suit" element={<Suits />} />

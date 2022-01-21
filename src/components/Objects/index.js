@@ -1,5 +1,6 @@
 // == Import npm
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // == Import
 import './objects.scss';
@@ -7,7 +8,26 @@ import './objects.scss';
 // == Composant
 const Objects = () => (
   <div className="objects">
-    voila les differents objet vendu par got
+    <ul className="objects-list">
+      <Link
+        className="objects-items"
+        to="/objectsBooks"
+      >
+        Livres
+      </Link>
+      <Link
+        className="objects-items"
+        to="/objectsGame"
+      >
+        Jeux
+      </Link>
+      <Link
+        className="objects-items"
+        to="/shop"
+      >
+        Boutique officielle
+      </Link>
+    </ul>
   </div>
 );
 
