@@ -168,6 +168,14 @@ import JonathanPryce from 'src/components/JonathanPryce';
 import JacobAnderson from 'src/components/JacobAnderson';
 import Creator from 'src/components/Creator';
 import Music from 'src/components/Music';
+import MusicSaison1 from 'src/components/MusicSaison1';
+import MusicSaison2 from 'src/components/MusicSaison2';
+import MusicSaison3 from 'src/components/MusicSaison3';
+import MusicSaison4 from 'src/components/MusicSaison4';
+import MusicSaison5 from 'src/components/MusicSaison5';
+import MusicSaison6 from 'src/components/MusicSaison6';
+import MusicSaison7 from 'src/components/MusicSaison7';
+import MusicSaison8 from 'src/components/MusicSaison8';
 import Suits from 'src/components/Suits';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -351,7 +359,15 @@ const BlogGOT = () => (
         <Route path="/jonathanPryce" element={<JonathanPryce />} />
         <Route path="/jacobAnderson" element={<JacobAnderson />} />
         <Route path="/creator" element={<Creator />} />
-        <Route path="/music" element={<Music />} />
+        <Route path="/music" element={<Music seasons={seasonData} />} />
+        <Route path="/musicsaison1" element={<MusicSaison1 />} />
+        <Route path="/musicsaison2" element={<MusicSaison2 />} />
+        <Route path="/musicsaison3" element={<MusicSaison3 />} />
+        <Route path="/musicsaison4" element={<MusicSaison4 />} />
+        <Route path="/musicsaison5" element={<MusicSaison5 />} />
+        <Route path="/musicsaison6" element={<MusicSaison6 />} />
+        <Route path="/musicsaison7" element={<MusicSaison7 />} />
+        <Route path="/musicsaison8" element={<MusicSaison8 />} />
         <Route path="/suit" element={<Suits />} />
       </Routes>
     </Router>
