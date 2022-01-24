@@ -1,0 +1,127 @@
+.creator {
+  &-productionName {
+    color: #8b4513;
+    font-size: 3.5rem;
+    margin: 0 5rem;
+    padding-top: 3rem;
+    border: 2px solid #8b4513;
+    border-radius: 1rem;
+    margin-right: 1300px;
+    text-align: center;
+    padding: auto;
+    width: 300px;
+  }
+
+  &-caracteristique {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+  }
+
+  &-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  &-title {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &-genre {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem; 
+  }
+
+  &-country {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &-production {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &-musician {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &-seasons {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &-episode {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 138, 24);
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  &-content {
+    color:#008080;
+    font-size: 1.2rem;
+    padding: 2rem 3rem;
+    line-height: 1.7rem;
+  }
+
+  &-subTitle {
+    color: #b22222;
+    margin: 1rem 3rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+}
+
+.creator-container {
+  background-color: rgb(207, 175, 132);
+  width: 1600px;
+  margin: 50px 135px;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
