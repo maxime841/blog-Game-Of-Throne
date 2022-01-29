@@ -31,8 +31,4 @@ export default [
     route: '/music',
     label: 'Musiques',
   },
-  {
-    route: '/suit',
-    label: 'Costumes',
-  },
 ];

@@ -176,7 +176,6 @@ import MusicSaison5 from 'src/components/MusicSaison5';
 import MusicSaison6 from 'src/components/MusicSaison6';
 import MusicSaison7 from 'src/components/MusicSaison7';
 import MusicSaison8 from 'src/components/MusicSaison8';
-import Suits from 'src/components/Suits';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // == Import
@@ -368,7 +367,6 @@ const BlogGOT = () => (
         <Route path="/musicsaison6" element={<MusicSaison6 />} />
         <Route path="/musicsaison7" element={<MusicSaison7 />} />
         <Route path="/musicsaison8" element={<MusicSaison8 />} />
-        <Route path="/suit" element={<Suits />} />
       </Routes>
     </Router>
     <Footer />
