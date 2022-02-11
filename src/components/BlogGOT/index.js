@@ -186,6 +186,7 @@ import housesData from '../../data/houses';
 import books from '../../data/books';
 import games from '../../data/games';
 import actors from '../../data/actors';
+import regions from '../../data/region';
 
 // == Composant
 const BlogGOT = () => (
@@ -203,7 +204,7 @@ const BlogGOT = () => (
         <Route path="/saison6" element={<Season6 />} />
         <Route path="/saison7" element={<Season7 />} />
         <Route path="/saison8" element={<Season8 />} />
-        <Route path="/card" element={<Card />} />
+        <Route path="/card" element={<Card regions={regions} house={housesData} />} />
         <Route path="/houses" element={<Houses houses={housesData} />} />
         <Route path="/houseArryn" element={<HouseArryn />} />
         <Route path="/houseArrynGen" element={<HouseArrynGen />} />

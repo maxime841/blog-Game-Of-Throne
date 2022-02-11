@@ -8,11 +8,14 @@
   }
 
   &-region {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: grey;
     height: 33%;
     width: 1200px;
+    background-color:#b3b3b3 ;
+  }
+
+  &-main {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &-label {
@@ -27,27 +30,102 @@
     text-align: center;
   }
 
+  &-content {
+    width: 100px;
+    float: left;
+    width: 50%;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
   &-svg {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border: 1px solid black;
     border-radius: 15%;
     padding: 1.5rem;
-    margin-top: 5rem;
+    margin-top: -2rem;
     margin-left: 3rem;
     background-color: #C0C0C0;
   }
 
   &-castel {
+    display: flex;
     background-color: white;
     height: 33%;
     width: 1200px;
+    padding: 2rem;
+  }
+
+  &-castelPic {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 2rem 2rem;
+  }
+
+  &-pictureCastelGot {
+    width: 65%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  &-pictureCastelReal {
+    width: 65%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  &-castelReal {
+    border: 1px solid black;margin-bottom: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+  }
+
+  &-castelText {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 2rem;
+  }
+
+  &-contentCastel {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
   }
 
   &-house {
+    display: flex;
     background-color: red;
     height: 34%;
     width: 1200px;
+    padding: 2rem;
+  }
+
+  &-houseMain {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    padding: 2rem;
+    margin-right: 2rem;
+  }
+
+  &-housePicture {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
   }
 
 }
