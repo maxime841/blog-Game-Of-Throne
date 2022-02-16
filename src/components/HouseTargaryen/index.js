@@ -56,6 +56,7 @@ class HouseTargaryen extends React.Component {
       <div className="houseTargaryen">
         <div className="houseTargaryen-container">
           <h1 className="houseTargaryen-title">{this.state.name}</h1>
+          <a className="houseTargaryen-buttonBack" href="/houses">Retour</a>
           <div className="houseTargaryen-but">
             <Link
               className="houseTargaryen-button"

@@ -56,6 +56,7 @@ class HouseTully extends React.Component {
       <div className="houseTully">
         <div className="houseTully-container">
           <h1 className="houseTully-title">{this.state.name}</h1>
+          <a className="houseTully-buttonBack" href="/houses">Retour</a>
           <div className="houseTully-but">
             <Link
               className="houseTully-button"

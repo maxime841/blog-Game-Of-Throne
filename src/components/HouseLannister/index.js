@@ -56,6 +56,7 @@ class HouseLannister extends React.Component {
       <div className="houseLannister">
         <div className="houseLannister-container">
           <h1 className="houseLannister-title">{this.state.name}</h1>
+          <a className="houseLannister-buttonBack" href="/houses">Retour</a>
           <div className="houseLannister-but">
             <Link
               className="houseLannister-button"

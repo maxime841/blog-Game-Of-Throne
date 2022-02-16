@@ -56,6 +56,7 @@ class HouseBaratheon extends React.Component {
       <div className="houseBaratheon">
         <div className="houseBaratheon-container">
           <h1 className="houseBaratheon-title">{this.state.name}</h1>
+          <a className="houseBaratheon-buttonBack" href="/houses">Retour</a>
           <div className="houseBaratheon-but">
             <Link
               className="houseBaratheon-button"

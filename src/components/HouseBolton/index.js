@@ -56,6 +56,7 @@ class HouseBolton extends React.Component {
       <div className="houseBolton">
         <div className="houseBolton-container">
           <h1 className="houseBolton-title">{this.state.name}</h1>
+          <a className="houseBolton-buttonBack" href="/houses">Retour</a>
           <div className="houseBolton-but">
             <Link
               className="houseBolton-button"
