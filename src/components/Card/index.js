@@ -2143,6 +2143,14 @@ class Card extends React.Component {
             </div>
           </div>
           <div className="card-castel">
+           <div classname="card-castelHouse">
+            <div className="card-houseMain">
+            Allégence: <a href={this.renderRouteFamilly(this.state.region)}>{this.renderFamilly(this.state.region)}</a> 
+            <p classname="card-nameFamilly">Famille: {this.renderNameFamilly(this.state.region)}</p>
+            </div>
+            <div className="card-houseEmblem">
+              <img className="card-housePicture" src={this.renderEmblemFamilly(this.state.region)} alt="Emblème de la famille" />
+            </div>
             <div className="card-castelMain">
               <div className="card-castelPic">
                 <h2 className="card-castelTitle">Chateau:{this.renderNameCastel(this.state.region)}</h2>
@@ -2153,18 +2161,9 @@ class Card extends React.Component {
               <img className="card-pictureCastelReal" src={this.renderCastelReal(this.state.region)} alt="Image de chateau réel" />
               </div>
             </div>
+            </div>
             <div className="card-castelText">
               <p className="card-contentCastel">{this.textCastel(this.state.region)}</p>
-            </div>
-          </div>
-          <div className="card-house">
-            <div className="card-houseMain">
-            Allégence: <a href={this.renderRouteFamilly(this.state.region)}>{this.renderFamilly(this.state.region)}</a> 
-            <p classname="card-nameFamilly">Famille: {this.renderNameFamilly(this.state.region)}</p>
-            {console.log('name', this.props)}
-            </div>
-            <div className="card-houseEmblem">
-              <img className="card-housePicture" src={this.renderEmblemFamilly(this.state.region)} alt="Emblème de la famille" />
             </div>
           </div>
         </div>

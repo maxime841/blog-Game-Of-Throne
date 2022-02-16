@@ -8,8 +8,10 @@ import './header.scss';
 
 // == Composant
 const Header = ({ links }) => (
-  <header className="header">
-    <nav className="header-list">
+  <div id="topnav" className="topnav">
+    <a id="home_link" className="topnav_link" href="/">HOME</a>
+
+    <nav role="navigation" id="topnav_menu">
       {
         links.map((link) => (
           <NavLink
@@ -20,10 +22,49 @@ const Header = ({ links }) => (
             {link.label}
           </NavLink>
         ))
-      };
+      }
     </nav>
-  </header>
+
+    <a id="topnav_hamburger_icon" href={"javascript:void(0);"} onClick={showResponsiveMenu}>
+      <span />
+      <span />
+      <span />
+    </a>
+    <nav role="navigation" id="topnav_responsive_menu">
+      <ul>
+        <li>{
+        links.map((link) => (
+          <NavLink
+            className="header-link"
+            key={link.route + link.label}
+            to={link.route}
+          >
+            {link.label}
+          </NavLink>
+        ))
+      }
+        </li>
+      </ul>
+
+    </nav>
+  </div>
 );
+
+function showResponsiveMenu() {
+  const menu = document.getElementById('topnav_responsive_menu');
+  const icon = document.getElementById('topnav_hamburger_icon');
+  const root = document.getElementById('root');
+  if (menu.className === '') {
+    menu.className = 'open';
+    icon.className = 'open';
+    root.style.overflowY = 'hidden';
+  }
+  else {
+    menu.className = '';
+    icon.className = '';
+    root.style.overflowY = '';
+  }
+}
 
 Header.propTypes = {
   links: PropTypes.arrayOf(

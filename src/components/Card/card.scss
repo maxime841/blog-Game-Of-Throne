@@ -35,8 +35,9 @@
     float: left;
     width: 50%;
     text-align: justify;
-    margin-top: 2rem;
+    margin-top: 0.7rem;
     margin-left: 1rem;
+    line-height: 1.2rem;
   }
 
   &-svg {
@@ -53,9 +54,13 @@
   &-castel {
     display: flex;
     background-color: white;
-    height: 33%;
+    height:66%;
     width: 1200px;
     padding: 2rem;
+  }
+
+  &-castelHouse {
+    display: flex;
   }
 
   &-castelPic {
@@ -92,6 +97,8 @@
     border-radius: 10px;
     width: 600px;
     margin-left: 2rem;
+    line-height: 2rem;
+    font-size: bold;
   }
 
   &-contentCastel {
@@ -104,19 +111,11 @@
     justify-content:center;
   }
 
-  &-house {
-    display: flex;
-    background-color: red;
-    height: 34%;
-    width: 1200px;
-    padding: 2rem;
-  }
-
   &-houseMain {
     border: 1px solid black;
     border-radius: 10px;
-    width: 500px;
-    height: 250px;
+    width: 250px;
+    height: 100px;
     padding: 2rem;
     margin-right: 2rem;
   }
@@ -126,6 +125,7 @@
     border-radius: 10px;
     width: 250px;
     height: 250px;
+    margin: 2rem 0;
   }
 
 }

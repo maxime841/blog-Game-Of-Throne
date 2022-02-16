@@ -55,3 +55,64 @@
   padding-top: 2rem;
   padding-bottom: 6rem;
 }
+
+/*******************Mode Mobile ******************/
+@media only screen and (max-width: 420px) {
+  .season1 {
+    &-title {
+      color: #8b4513;
+      font-size: 1.5rem;
+      margin: 0 1rem;
+      padding-top: 2rem;
+      border: 2px solid #8b4513;
+      border-radius: 1rem;
+      margin-right: 100px;
+      text-align: center;
+      padding: auto;
+      width: 5.5rem;
+    }
+
+    &-subTitle {
+      color: #b22222;
+      margin: 1rem 3rem;
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    &-img {
+      width: 80px;
+      margin-left: -30px;
+      margin-top: 0px;
+      float: left;
+    }
+
+    &-img:nth-child(2) {
+    margin: 340px 0 0 -30px; 
+    }
+
+    &-img:nth-child(3) {
+      margin: 1130px 0 0 -30px; 
+    }
+
+    &-img:nth-child(4) {
+      margin: 350px 0 0 -30px; 
+    }
+
+    &-item {
+      color:#008080;
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      margin: 1rem 1.5rem;
+      text-align: justify;
+      width: 350px; 
+    }
+  }
+
+  .season1-container {
+    background-color: antiquewhite;
+    width: 390px;
+    margin: 10px 12px;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+  }
+}

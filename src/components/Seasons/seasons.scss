@@ -35,3 +35,19 @@
      margin:40px 0px;
    }
  }
+
+ /*******************Mode Mobile ******************/
+ @media only screen and (max-width: 420px) {
+  .seasons {
+    &-list {
+      width: 400px;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+  }
+  
+}
