@@ -17,6 +17,7 @@ const Saison2 = () => (
   <div className="season2">
     <div className="season2-container">
       <h1 className="season2-title">Saison 2</h1>
+      <a className="season2-button" href="/seasons">Retour</a>
       <h2 className="season2-subTitle">Synopsis</h2>
       <div className="season2-image">
         <img className="season2-img" src={carteGot} alt="carte de game of throne" />

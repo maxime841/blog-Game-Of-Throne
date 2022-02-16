@@ -10,6 +10,7 @@ const Saison7 = () => (
   <div className="season7">
     <div className="season7-container">
       <h1 className="season7-title">Saison 7</h1>
+      <a className="season7-button" href="/seasons">Retour</a>
       <h2 className="season7-subTitle">Synopsis</h2>
       <div className="season7-image">
         <img className="season7-img" src={DragonIce} alt="Le dragon de glace" />

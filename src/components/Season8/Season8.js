@@ -13,6 +13,7 @@ const Saison8 = () => (
   <div className="season8">
     <div className="season8-container">
       <h1 className="season8-title">Saison 8</h1>
+      <a className="season8-button" href="/seasons">Retour</a>
       <h2 className="season8-subTitle">Synopsis</h2>
       <div className="season8-image">
         <img className="season8-img" src={WallDown} alt="Le mur tombe" />

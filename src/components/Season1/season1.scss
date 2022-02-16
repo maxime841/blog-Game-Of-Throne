@@ -10,6 +10,18 @@
     text-align: center;
     padding: auto;
   }
+
+  &-button {
+    border: 1px solid #8b4513;;
+    border-radius: 10px;
+    color:#8b4513;
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    width: 60px;
+    height: 40px;
+    padding: 0.5rem;
+  }
   
   &-content {
     color:#008080;
@@ -70,6 +82,18 @@
       text-align: center;
       padding: auto;
       width: 5.5rem;
+    }
+
+    &-button {
+      border: 1px solid #8b4513;;
+      border-radius: 10px;
+      color:#8b4513;
+      position: absolute;
+      right: 25px;
+      top: 90px;
+      width: 60px;
+      height: 40px;
+      padding: 0.5rem;
     }
 
     &-subTitle {
