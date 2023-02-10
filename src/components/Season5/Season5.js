@@ -3,8 +3,8 @@ import React from 'react';
 
 // == Import
 import './season5.scss';
-import carteGot from '../../../public/carteGOT.jpg';
-import TywinDeadByTyrion from '../../../public/TywinDeadByTyrion.jpg';
+import carteGot from '../../assets/public/carteGOT.jpg';
+import TywinDeadByTyrion from '../../assets/public/TywinDeadByTyrion.jpg';
 
 // == Composant
 const Saison5 = () => (

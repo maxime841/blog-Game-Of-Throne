@@ -5,6 +5,7 @@
     "browser": true
   },
   "rules": {
+    "no-script-url": 0,
     "linebreak-style": 0,
     "brace-style": ["error", "stroustrup"],
     "no-param-reassign": [

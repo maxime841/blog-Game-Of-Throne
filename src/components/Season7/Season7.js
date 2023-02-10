@@ -3,7 +3,7 @@ import React from 'react';
 
 // == Import
 import './season7.scss';
-import DragonIce from '../../../public/DragonIce.jpg';
+import DragonIce from '../../assets/public/DragonIce.jpg';
 
 // == Composant
 const Saison7 = () => (

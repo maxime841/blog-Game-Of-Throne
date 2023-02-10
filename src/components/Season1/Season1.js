@@ -3,11 +3,11 @@ import React from 'react';
 
 // == Import
 import './season1.scss';
-import carteGot from '../../../public/carteGOT.jpg';
-import deadJohnArryn from '../../../public/deadJohnArryn.jpg';
-import eddAndNed from '../../../public/Eddard_et_Petyr.png';
-import Daenerys from '../../../public/Daenarys.jpg';
-import RobbStark from '../../../public/Robb_Stark.jpg';
+import carteGot from '../../assets/public/carteGOT.jpg';
+import deadJohnArryn from '../../assets/public/deadJohnArryn.jpg';
+import eddAndNed from '../../assets/public/Eddard_et_Petyr.png';
+import Daenerys from '../../assets/public/Daenarys.jpg';
+import RobbStark from '../../assets/public/Robb_Stark.jpg';
 
 // == Composant
 const Saison1 = () => (

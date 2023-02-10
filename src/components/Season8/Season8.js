@@ -3,10 +3,10 @@ import React from 'react';
 
 // == Import
 import './season8.scss';
-import WallDown from '../../../public/WallDown.png';
-import LyannaAndAegon from '../../../public/LyannaAndAegon.jpg';
-import WalkingWhite from '../../../public/WalkingWhite.png';
-import DrogonDaenerys from '../../../public/drogondaenerys.jpeg';
+import WallDown from '../../assets/public/WallDown.png';
+import LyannaAndAegon from '../../assets/public/LyannaAndAegon.jpg';
+import WalkingWhite from '../../assets/public/WalkingWhite.png';
+import DrogonDaenerys from '../../assets/public/drogondaenerys.jpeg';
 
 // == Composant
 const Saison8 = () => (

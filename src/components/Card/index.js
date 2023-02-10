@@ -2195,7 +2195,7 @@ Card.propTypes = {
       route: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
     }),
-  ).isRequired,
+  ),
 }
 
 // == Export

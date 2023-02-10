@@ -3,8 +3,8 @@ import React from 'react';
 
 // == Import
 import './season3.scss';
-import carteGot from '../../../public/carteGOT.jpg';
-import WalderFrey from '../../../public/WalderFrey.jpg';
+import carteGot from '../../assets/public/carteGOT.jpg';
+import WalderFrey from '../../assets/public/WalderFrey.jpg';
 
 // == Composant
 const Saison3 = () => (

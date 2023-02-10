@@ -3,14 +3,14 @@ import React from 'react';
 
 // == Import
 import './season2.scss';
-import carteGot from '../../../public/carteGOT.jpg';
-import AryaSansa from '../../../public/arya_sansa.jpg';
-import TywinLannister from '../../../public/tywin_lannister.jpeg';
-import StannisBaratheon from '../../../public/Stannis_Baratheon.png';
-import Drogo from '../../../public/Drogo.jpg';
-import Qarth from '../../../public/Qarth.jpg';
-import CastelBlack from '../../../public/Castle_Black.jpg';
-import NightKeeper from '../../../public/NightKeeper.jpeg';
+import carteGot from '../../assets/public/carteGOT.jpg';
+import AryaSansa from '../../assets/public/arya_sansa.jpg';
+import TywinLannister from '../../assets/public/tywin_lannister.jpeg';
+import StannisBaratheon from '../../assets/public/Stannis_Baratheon.png';
+import Drogo from '../../assets/public/Drogo.jpg';
+import Qarth from '../../assets/public/Qarth.jpg';
+import CastelBlack from '../../assets/public/Castle_Black.jpg';
+import NightKeeper from '../../assets/public/NightKeeper.jpeg';
 
 // == Composant
 const Saison2 = () => (

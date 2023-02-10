@@ -3,15 +3,15 @@ import React from 'react';
 
 // == Import
 import './season6.scss';
-import carteGot from '../../../public/carteGOT.jpg';
-import AryaStark from '../../../public/AryaStark.png';
-import HeightBird from '../../../public/HeightBird.jpg';
-import WithoutFace from '../../../public/WithoutFace.jpeg';
-import Wall from '../../../public/Wall.jpg';
-import YaraGreyjoy from '../../../public/Yara_Greyjoy.png';
-import JohnSnow from '../../../public/Jon_Snow.png';
-import OlenaTyrell from '../../../public/OlenaTyrell.jpg';
-import CerseiLooked from '../../../public/CerseiLooked.jpeg';
+import carteGot from '../../assets/public/carteGOT.jpg';
+import AryaStark from '../../assets/public/AryaStark.png';
+import HeightBird from '../../assets/public/HeightBird.jpg';
+import WithoutFace from '../../assets/public/WithoutFace.jpeg';
+import Wall from '../../assets/public/Wall.jpg';
+import YaraGreyjoy from '../../assets/public/Yara_Greyjoy.png';
+import JohnSnow from '../../assets/public/Jon_Snow.png';
+import OlenaTyrell from '../../assets/public/OlenaTyrell.jpg';
+import CerseiLooked from '../../assets/public/CerseiLooked.jpeg';
 
 // == Composant
 const Saison6 = () => (

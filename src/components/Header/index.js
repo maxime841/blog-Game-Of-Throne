@@ -7,6 +7,23 @@ import PropTypes from 'prop-types';
 import './header.scss';
 
 // == Composant
+
+function showResponsiveMenu() {
+  const menu = document.getElementById('topnav_responsive_menu');
+  const icon = document.getElementById('topnav_hamburger_icon');
+  const root = document.getElementById('root');
+  if (menu.className === '') {
+    menu.className = 'open';
+    icon.className = 'open';
+    root.style.overflowY = 'hidden';
+  }
+  else {
+    menu.className = '';
+    icon.className = '';
+    root.style.overflowY = '';
+  }
+}
+
 const Header = ({ links }) => (
   <div id="topnav" className="topnav">
     <a id="home_link" className="topnav_link" href="/">HOME</a>
@@ -25,7 +42,7 @@ const Header = ({ links }) => (
       }
     </nav>
 
-    <a id="topnav_hamburger_icon" href={"javascript:void(0);"} onClick={showResponsiveMenu}>
+    <a id="topnav_hamburger_icon" href="javascript:void(0);" onClick={showResponsiveMenu}>
       <span />
       <span />
       <span />
@@ -49,22 +66,6 @@ const Header = ({ links }) => (
     </nav>
   </div>
 );
-
-function showResponsiveMenu() {
-  const menu = document.getElementById('topnav_responsive_menu');
-  const icon = document.getElementById('topnav_hamburger_icon');
-  const root = document.getElementById('root');
-  if (menu.className === '') {
-    menu.className = 'open';
-    icon.className = 'open';
-    root.style.overflowY = 'hidden';
-  }
-  else {
-    menu.className = '';
-    icon.className = '';
-    root.style.overflowY = '';
-  }
-}
 
 Header.propTypes = {
   links: PropTypes.arrayOf(
