@@ -12,3 +12,6 @@ Nous avons un onglet Saison pour repertorier toutes les saisons de la série ave
 Nous avons également un onglet carte pour voir la carte du continent Westeros ainsi que tous les region de la série et voir les informations de chaque région. Voir image ci dessous
 ![Screenshot](CastralRock.png)
 ![Screenshot](CasterlyRock1.png)
+
+Nous avons un onglet Famille qui correspond exactement au même système que la page saison et quand nous avons cliquer sur une famille par exemple famille Arryn nous tombons sur la page de présentation de la famille. Voir image ci dessous.
+![Screenshot](maisonArryn.png)
