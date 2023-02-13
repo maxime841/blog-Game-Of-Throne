@@ -20,4 +20,4 @@ Lorsque l'on appuie sur l'onglet personnage nous tombons sur la liste des person
 ![Screenshot](persoArryn.png)
 
 Et pour finir quand on appuie sur l'un des personne on tombe sur sa page profil. Voir image ci dessous.
-![Screenshot](profilLysaArryn.png)
+![Screenshot](profilLisaArryn.png)
