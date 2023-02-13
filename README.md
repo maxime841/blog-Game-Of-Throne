@@ -15,3 +15,9 @@ Nous avons également un onglet carte pour voir la carte du continent Westeros a
 
 Nous avons un onglet Famille qui correspond exactement au même système que la page saison et quand nous avons cliquer sur une famille par exemple famille Arryn nous tombons sur la page de présentation de la famille. Voir image ci dessous.
 ![Screenshot](maisonArryn.png)
+
+Lorsque l'on appuie sur l'onglet personnage nous tombons sur la liste des personnages de la maison selectionné. Voir image ci dessous.
+![Screenshot](persoArryn.png)
+
+Et pour finir quand on appuie sur l'un des personne on tombe sur sa page profil. Voir image ci dessous.
+![Screenshot](profilLysaArryn.png)
