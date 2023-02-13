@@ -8,3 +8,7 @@ Dans la barre de navigation nous avons l'historique de la série. Voir image ci 
 
 Nous avons un onglet Saison pour repertorier toutes les saisons de la série avec un synopsis pour chaque saison. Voir image ci dessous
 ![Screenshot](Page_Saisons.png)
+
+Nous avons également un onglet carte pour voir la carte du continent Westeros ainsi que tous les region de la série et voir les informations de chaque région. Voir image ci dessous
+![Screenshot](CastralRock.png)
+![Screenshot](CasterlyRock1.png)
