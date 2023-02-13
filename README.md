@@ -21,3 +21,6 @@ Lorsque l'on appuie sur l'onglet personnage nous tombons sur la liste des person
 
 Et pour finir quand on appuie sur l'un des personne on tombe sur sa page profil. Voir image ci dessous.
 ![Screenshot](profilLisaArryn.png)
+
+Nous avons l'onglet acteur pour voir tous les acteur qui jouent dans la série role principaux et secondaire. Lorsque l'on appuie sur un acteur nous tombons sur sa page profil. Voir image ci dessous
+![Screenshot](pageActeurs.png)
