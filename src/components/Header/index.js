@@ -42,7 +42,7 @@ const Header = ({ links }) => (
       }
     </nav>
 
-    <a id="topnav_hamburger_icon" href="javascript:void(0);" onClick={showResponsiveMenu}>
+    <a id="topnav_hamburger_icon" onClick={showResponsiveMenu}>
       <span />
       <span />
       <span />

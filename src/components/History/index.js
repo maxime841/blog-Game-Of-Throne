@@ -3,9 +3,9 @@ import React from 'react';
 
 // == Import
 import './history.scss';
-// import aerysIITargaryen from 'assets/public/Aerys_II_Targaryen.png';
-// import robertBaratheon from './robertBaratheon';
-// import robinArryn from './robertAr';
+import aerysIITargaryen from '../../assets/public/Aerys_II_Targaryen.png';
+import robertBaratheon from '../../assets/public/robert-baratheon.jpg';
+import robinArryn from '../../assets/public/RobinArryn.png';
 
 // == Composant
 const History = () => (
@@ -36,7 +36,7 @@ const History = () => (
         la série débutent donc aux alentours de l'an 298.
       </p>
       <h2 className="history-subTitle">Règne du Roi Fou</h2>
-      <img className="history-img" src="#" alt="Règne du roi fou" />
+      <img className="history-img" src={aerysIITargaryen} alt="Règne du roi fou" />
       <ul>
         <li className="history-item">261 : Naissance des jumeaux, Cersei et Jaime Lannister.</li>
         <li className="history-item">266 : Naissance de Tyrion Lannister et mort de Joanna Lannister.</li>
@@ -52,7 +52,7 @@ const History = () => (
         </li>
       </ul>
       <h2 className="history-subTitle">Rébellion de Robert</h2>
-      <img className="history-img" src="#" alt="Rebellion de Robert" />
+      <img className="history-img" src={robertBaratheon} alt="Rebellion de Robert" />
       <ul>
         <li className="history-item">280 : Début de la Rébellion de Robert Baratheon.</li>
         <li className="history-item">281 : Bataille du Trident et mort de Rhaegar Targaryen et de Lewyn Martell.
@@ -71,7 +71,7 @@ const History = () => (
         <li />
       </ul>
       <h2 className="history-subTitle">Règne du Roi Robert</h2>
-      <img className="history-img" src="#" alt="Règne du roi Robert" />
+      <img className="history-img" src={robertBaratheon} alt="Règne du roi Robert" />
       <ul>
         <li className="history-item">282 : Naissance de Joffrey Baratheon.</li>
         <li className="history-item"> 283 : Naissance de Myrcella Baratheon.</li>
@@ -82,7 +82,7 @@ const History = () => (
         <li className="history-item">289 : Rébellion des Greyjoy.</li>
       </ul>
       <h2 className="history-subTitle">Naissance de Robin Arryn.</h2>
-      <img className="history-img" src="#" alt="Naissance de Robin Arryn" />
+      <img className="history-img" src={robinArryn} alt="Naissance de Robin Arryn" />
       <ul>
         <li className="history-item">292 : Naissance de Rickon Stark.</li>
         <li className="history-item"> 293 : Naissance de Lyanna Mormont.</li>
